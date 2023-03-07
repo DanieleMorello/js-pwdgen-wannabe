@@ -19,5 +19,4 @@ console.log(preferitColor);
 // Stampo in pagina il risultato usando questo formato: nomecognomecolorepreferito23
 // uso document.getElmentById per selezionare l' elemento html e uso inner.html per
 // stamparlo in pagina
-const result = document.getElementById('connotations').innerHTML = `Ciao mi chiamo ${userName} ${lastName} ed il mio colore preferito è il ${preferitColor}`
-console.log(result);
+document.getElementById('connotations').innerHTML = `Ciao mi chiamo ${userName} ${lastName} ed il mio colore preferito è il ${preferitColor}`
